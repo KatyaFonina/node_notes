@@ -1,0 +1,27 @@
+{
+  "name": "notes-management-api",
+  "version": "1.0.0",
+  "description": "RESTful API for managing notes with MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest --testTimeout=10000 --detectOpenHandles",
+    "test:watch": "jest --watch --testTimeout=10000"
+  },
+  "keywords": ["notes", "api", "rest", "mongodb", "express"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^6.12.0"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
